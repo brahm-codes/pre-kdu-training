@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight: 500;
+}
+
+h2{
+    font-weight: normal;
+}
+
+h3{
+    font-weight: normal;
+}
+
+.intro{
+    padding : 30px 0;   
+    width : 500px;
+    text-align: justify;
+}
+
+.header{
+    /* background-color: rgb(246, 231, 231); */
+    height : 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.header-text{
+    margin : 0 30px 0 0;
+}
+
+.links{
+    display: flex;
+}
+
+.links a{
+    padding: 0 20px 0 0;
+}
+
+.profile-pic{
+    background-color: rgb(232, 228, 228);
+    padding: 20px;
+    border-radius: 120px;
+    width : 220px;
+    margin : 0 0 100px 20px;
+}
+
+.edu h1{
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+.edu-content, td,th{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 8px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.edu{
+    margin: 0 0 150px 0;
+}
+
+.projects {
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+.project-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin : 0 9%;
+}
+
+.project-content div{
+    background-color:rgb(253, 243, 243);
+    width: 31.5%;
+    padding : 2%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;     
+    flex-direction: column;
+}
+
+.project-content div h2{
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-weight: 500;
+}
+
+.project-content div p{
+    text-align: justify;
+    margin: 0px 0 5px 0;
+}
+
+.project-content div img{
+    text-align: center;
+    margin: 0 0 40px 0;
+    width:130px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.skills li {
+    margin: 30px 100px;
+    width:100px;
+}
+
+.skills li img{
+    width:80px;
+}
+
+.skills li p{
+    text-align: center;
+    font-weight: 500;
+    margin: 15px 0 0 0;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none; 
+}
+
+.skills h1{
+    text-align: center;
+    padding: 0 0 10px 0;
+    margin: 150px 0 0 0;   
+}
+
+#web-skills li img{
+    width:70px;
+    margin:0 15px 0;
+}
+
+#web-skills{
+    margin: 20px 0 130px 0;
+}
