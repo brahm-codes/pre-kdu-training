@@ -118,11 +118,12 @@ h3{
 
 .skills li {
     margin: 30px 100px;
-    width:100px;
+    width:90px;
 }
 
 .skills li img{
     width:80px;
+    margin:0 5px 0;
 }
 
 .skills li p{
@@ -144,7 +145,7 @@ ul{
 
 #web-skills li img{
     width:70px;
-    margin:0 15px 0;
+    margin:0 10px 0;
 }
 
 #web-skills{
